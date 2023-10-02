@@ -4863,7 +4863,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+  z-index: 999;
+position: relative;}
   .header__img-box {
     margin: -2.5rem 0 0.5rem; }
     @media (min-width: 576px) {
